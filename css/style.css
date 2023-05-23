@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+body {
+    background-image: url(/images/bgtwo.jpg);
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden;
+    height: min-content;
+
+}
+.navbar {
+    width: 100%;
+    height: 15vh;
+    background-color: #0d0d0d;
+}
+
+.container-left{
+    width: 34%;
+    height: 200vh;
+    position: relative;
+
+}
+.left-area {
+    position: relative;
+    width: 95%;
+    height: 190vh;
+    margin: 0 auto;
+    top: 5%;
+}
+.left-main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.left-image {
+    position: relative;
+    width: 55%;
+    height: 45Vh;
+    top: 20%;
+    left: 22%;
+    border-radius: 25px;
+    overflow: hidden;
+    z-index: 2;
+}
+.left-about {
+    color: white;
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 140vh;
+    border-start-start-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #111111;
+}
+
+.name{
+    position: relative;
+    width: 100%;
+    top: 17%;
+}
+.name h3 {
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+.soft {
+    width: 40%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #1D1D1D;
+    position: relative;
+    top: 19%;
+    border-radius: 10px;
+}
+.soft p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #a6a6a6;
+    padding: 5px 12px;
+}
+.links {
+    margin: 0 auto;
+    width: 60%;
+    height: 9vh;
+    display: flex;
+    position: relative;
+    top:22%;
+    justify-content: space-between;
+}
+
+.social {
+    width: 44px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: plum;
+}
+
+.ab-bottom {
+    width: 90%;
+    height: 55vh;
+    border-radius: 25px;
+    background-color: #1D1D1D;
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ab-area {
+    position: relative;
+    top: 3%;
+    margin: 0 auto;
+    width: 90%;
+    height: 10vh;
+    margin-bottom: 4%;
+    display: flex;
+    padding: 2%;
+}
+.ab-image {
+    position: relative;
+    top: 6%;
+}
+.ab-text {
+    padding: 2%;
+    line-height: 4px;
+    position: relative;
+    top: 9%;
+}
+.ab-text p {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #a6a6a6;
+}
+.ab-text :last-child {
+    font-size: 16px;
+}
+.ab-text strong {
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<< right area >>>>>>>>>>>>>>>>>>>>> */
+.right-area {
+    width: 60%;
+    height: 296vh;
+    position: relative;
+    right: 2%;
+    float: right;
+    top: -180vh;
+}
+.right-upper {
+    width: 60%;
+    height: 20vh;
+    position: relative;
+    float: right;
+    right: 5%;
+    top: 6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0d0d0d;
+    border-radius: 20px;
+}
+
+.right-btn {
+    border-radius: 10px;
+    width: 70px;
+    height: 60%;
+    background-color: #E5496D;
+    color: white;
+}
+
+#about-image img{
+    position: relative;
+    left: 28%;
+    width: 30px;
+}
+#sp img {
+    position: relative;
+    left: 30%;
+    width: 30px;
+}
+
+.right-btn:hover {
+    background-color: #d42e55;
+}
+
+.right-bottom {
+    width: 100%;
+    height: 80%;
+    background-color: #0d0d0d;
+    position: relative;
+    top: 22%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.bottom-text {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 20vh;
+    top: -10%;
+    left: 5%;
+    width: 90%;
+}
+
+.bottom-text h2 {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.line {
+    width: 40%;
+    height: 2px;
+    position: relative;
+    left: 5%;
+    background-color: #E5496D;
+}
+.bottom-textt {
+    position: relative;
+    top: -146px;
+    width: 95%;
+    left: 2%;
+    margin: 0 auto;
+}
+.bottom-textt p {
+    color: #a6a6a6;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.bottom-bottom {
+    position: relative;
+    top: -7%;
+    margin: 0 auto;
+    width: 90%;;
+    height: 100vh;
+}
+#what {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: -10%;
+    left: 5%;
+}
+.cards-area {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    left: 3%;
+}
+
+.cardd {
+    width: 45%;
+    height: 34vh;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.card-uppr {
+    position: relative;
+    top: 2%;
+    width: 90%;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.card-uppr h2 {
+    font-size: 20px;
+    position: relative;
+    left: 4%;
+}
+.card-down {
+    width: 90%;
+    height: max-content;
+
+}
+.card-down p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #727171;
+    position: relative;
+    left: 3%;
+}
+
+.last-btn {
+    position: relative;
+    top: 35%;
+    bottom: 2%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.last-btn button {
+    width: 70%;
+    height: 8vh;
+    background-color: #d42e55;
+    border-radius: 20px;
+}
+
+.bottom-crow {
+    width: 90%;
+    height: 50vh;
+    border-radius: 20px;
+}
+.ft {
+    top: 10%;
+    position: relative;
+}
+.ft h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<< MEDIA QUERIES >>>>>>>>>>>>>>>>>> */
+@media (max-width: 576px) { 
+    .container-left {
+        width: 100%;
+        display: block;
+    }
+    .right-area {
+        top: 180vh;
+    }
+    .left-area {
+        position: relative;
+        width: 100%;
+        /* height: 175vh; */
+        margin: 0 auto;
+        /* top: 5%; */
+    }
+    .left-image {
+        position: relative;
+        width: 55%;
+        height: 25Vh;
+        top: 5%;
+        left: 22%;
+        border-radius: 25px;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .left-about {
+        color: white;
+        position: relative;
+        margin: 0 auto;
+        width: 95%;
+        height: 108vh;
+        border-start-start-radius: 25px;
+        border-top-right-radius: 25px;
+        background-color: #111111;
+    }
+    .name {
+        position: relative;
+        width: 100%;
+        top: 8%;
+    }
+    .soft {
+        width: 46%;
+        height: 40px;
+        margin: 0 auto;
+        background-color: #1D1D1D;
+        position: relative;
+        top: 10%;
+        border-radius: 10px;
+    }
+    .links {
+        margin: 0 auto;
+        width: 60%;
+        height: 9vh;
+        display: flex;
+        position: relative;
+        top: 15%;
+        justify-content: space-between;
+    }
+    .ab-bottom {
+        width: 90%;
+        height: 55vh;
+        border-radius: 25px;
+        background-color: #1D1D1D;
+        position: relative;
+        top: 17%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .last-btn {
+        position: relative;
+        top: 21%;
+        bottom: 2%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .right-area {
+        top: -61vh;
+        width: 98%;
+    }
+    .right-upper {
+        width: 92%;
+        margin: 0 auto;
+        height: 16vh;
+        position: relative;
+        float: right;
+        /* right: 5%; */
+        top: 6%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #0d0d0d;
+        border-radius: 20px;
+    }
+    .bottom-text {
+        display: flex;
+        position: relative;
+        align-items: center;
+        height: 20vh;
+        top: -5%;
+        left: 5%;
+        width: 90%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    #what {
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        position: relative;
+        top: -4%;
+        left: 5%;
+    }
+    .right-bottom {
+        width: 100%;
+        height: 118%;
+        background-color: #0d0d0d;
+        position: relative;
+        top: 22%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .bottom-bottom {
+        position: relative;
+        top: -2%;
+        margin: 0 auto;
+        width: 90%;
+        height: 100vh;
+    }
+    .cards-area {
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        position: relative;
+        left: 3%;
+        flex-direction: column;
+    }
+    .cardd {
+        width: 100%;
+    }
+}
